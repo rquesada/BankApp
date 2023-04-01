@@ -7,9 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7641AC9D29D100C400CD2E49 /* Account.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7641AC9C29D100C400CD2E49 /* Account.swift */; };
+		7641AC9F29D1023E00CD2E49 /* AccountService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7641AC9E29D1023E00CD2E49 /* AccountService.swift */; };
+		7641ACA129D1056E00CD2E49 /* AccountSummaryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7641ACA029D1056E00CD2E49 /* AccountSummaryViewModel.swift */; };
+		7641ACA329D1093B00CD2E49 /* AccountSummaryScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7641ACA229D1093B00CD2E49 /* AccountSummaryScreen.swift */; };
+		7641ACA529D34C8500CD2E49 /* AccountListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7641ACA429D34C8500CD2E49 /* AccountListView.swift */; };
+		7641ACA729D35C1900CD2E49 /* CreateAccountRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7641ACA629D35C1900CD2E49 /* CreateAccountRequest.swift */; };
+		7641ACA929D35D1500CD2E49 /* CreateAccountResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7641ACA829D35D1500CD2E49 /* CreateAccountResponse.swift */; };
+		7641ACAB29D35FD300CD2E49 /* AddAccountViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7641ACAA29D35FD300CD2E49 /* AddAccountViewModel.swift */; };
+		7641ACAD29D3808300CD2E49 /* AddAccountScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7641ACAC29D3808300CD2E49 /* AddAccountScreen.swift */; };
+		7650EF8029D7ADF100336FB6 /* TransferFundRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7650EF7F29D7ADF100336FB6 /* TransferFundRequest.swift */; };
+		7650EF8229D7AED700336FB6 /* TransferFundResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7650EF8129D7AED700336FB6 /* TransferFundResponse.swift */; };
+		7650EF8429D7B21800336FB6 /* TransferFundsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7650EF8329D7B21800336FB6 /* TransferFundsViewModel.swift */; };
+		7650EF8629D7B41400336FB6 /* TransferFundsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7650EF8529D7B41400336FB6 /* TransferFundsScreen.swift */; };
+		7650EF8829D7D95600336FB6 /* TransferFundsAccountSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7650EF8729D7D95600336FB6 /* TransferFundsAccountSelectionView.swift */; };
 		8D40C32324E1C4080040822F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D40C32224E1C4080040822F /* AppDelegate.swift */; };
 		8D40C32524E1C4080040822F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D40C32424E1C4080040822F /* SceneDelegate.swift */; };
-		8D40C32724E1C4080040822F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D40C32624E1C4080040822F /* ContentView.swift */; };
 		8D40C32924E1C4090040822F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D40C32824E1C4090040822F /* Assets.xcassets */; };
 		8D40C32C24E1C4090040822F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D40C32B24E1C4090040822F /* Preview Assets.xcassets */; };
 		8D40C32F24E1C4090040822F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D40C32D24E1C4090040822F /* LaunchScreen.storyboard */; };
@@ -19,10 +32,23 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7641AC9C29D100C400CD2E49 /* Account.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Account.swift; sourceTree = "<group>"; };
+		7641AC9E29D1023E00CD2E49 /* AccountService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountService.swift; sourceTree = "<group>"; };
+		7641ACA029D1056E00CD2E49 /* AccountSummaryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountSummaryViewModel.swift; sourceTree = "<group>"; };
+		7641ACA229D1093B00CD2E49 /* AccountSummaryScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountSummaryScreen.swift; sourceTree = "<group>"; };
+		7641ACA429D34C8500CD2E49 /* AccountListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountListView.swift; sourceTree = "<group>"; };
+		7641ACA629D35C1900CD2E49 /* CreateAccountRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountRequest.swift; sourceTree = "<group>"; };
+		7641ACA829D35D1500CD2E49 /* CreateAccountResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountResponse.swift; sourceTree = "<group>"; };
+		7641ACAA29D35FD300CD2E49 /* AddAccountViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddAccountViewModel.swift; sourceTree = "<group>"; };
+		7641ACAC29D3808300CD2E49 /* AddAccountScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddAccountScreen.swift; sourceTree = "<group>"; };
+		7650EF7F29D7ADF100336FB6 /* TransferFundRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransferFundRequest.swift; sourceTree = "<group>"; };
+		7650EF8129D7AED700336FB6 /* TransferFundResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransferFundResponse.swift; sourceTree = "<group>"; };
+		7650EF8329D7B21800336FB6 /* TransferFundsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransferFundsViewModel.swift; sourceTree = "<group>"; };
+		7650EF8529D7B41400336FB6 /* TransferFundsScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransferFundsScreen.swift; sourceTree = "<group>"; };
+		7650EF8729D7D95600336FB6 /* TransferFundsAccountSelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransferFundsAccountSelectionView.swift; sourceTree = "<group>"; };
 		8D40C31F24E1C4080040822F /* BankApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BankApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D40C32224E1C4080040822F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8D40C32424E1C4080040822F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		8D40C32624E1C4080040822F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		8D40C32824E1C4090040822F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8D40C32B24E1C4090040822F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		8D40C32E24E1C4090040822F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -70,7 +96,6 @@
 				8D40C33624E1C4360040822F /* Extensions */,
 				8D40C32224E1C4080040822F /* AppDelegate.swift */,
 				8D40C32424E1C4080040822F /* SceneDelegate.swift */,
-				8D40C32624E1C4080040822F /* ContentView.swift */,
 				8D40C32824E1C4090040822F /* Assets.xcassets */,
 				8D40C32D24E1C4090040822F /* LaunchScreen.storyboard */,
 				8D40C33024E1C4090040822F /* Info.plist */,
@@ -100,6 +125,11 @@
 		8D40C33D24E1C4C30040822F /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				7641AC9C29D100C400CD2E49 /* Account.swift */,
+				7641ACA629D35C1900CD2E49 /* CreateAccountRequest.swift */,
+				7641ACA829D35D1500CD2E49 /* CreateAccountResponse.swift */,
+				7650EF7F29D7ADF100336FB6 /* TransferFundRequest.swift */,
+				7650EF8129D7AED700336FB6 /* TransferFundResponse.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -107,6 +137,9 @@
 		8D40C33E24E1C4C90040822F /* Screens */ = {
 			isa = PBXGroup;
 			children = (
+				7641ACA229D1093B00CD2E49 /* AccountSummaryScreen.swift */,
+				7641ACAC29D3808300CD2E49 /* AddAccountScreen.swift */,
+				7650EF8529D7B41400336FB6 /* TransferFundsScreen.swift */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -114,6 +147,8 @@
 		8D40C33F24E1C4CE0040822F /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				7641ACA429D34C8500CD2E49 /* AccountListView.swift */,
+				7650EF8729D7D95600336FB6 /* TransferFundsAccountSelectionView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -121,6 +156,7 @@
 		8D40C34024E1C4D20040822F /* Services */ = {
 			isa = PBXGroup;
 			children = (
+				7641AC9E29D1023E00CD2E49 /* AccountService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -128,6 +164,9 @@
 		8D40C34124E1C4D80040822F /* View Models */ = {
 			isa = PBXGroup;
 			children = (
+				7641ACA029D1056E00CD2E49 /* AccountSummaryViewModel.swift */,
+				7641ACAA29D35FD300CD2E49 /* AddAccountViewModel.swift */,
+				7650EF8329D7B21800336FB6 /* TransferFundsViewModel.swift */,
 			);
 			path = "View Models";
 			sourceTree = "<group>";
@@ -159,7 +198,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1150;
-				LastUpgradeCheck = 1150;
+				LastUpgradeCheck = 1420;
 				ORGANIZATIONNAME = "Mohammad Azam";
 				TargetAttributes = {
 					8D40C31E24E1C4080040822F = {
@@ -203,12 +242,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7650EF8429D7B21800336FB6 /* TransferFundsViewModel.swift in Sources */,
 				8D40C33824E1C4540040822F /* Double+Extensions.swift in Sources */,
 				8D40C32324E1C4080040822F /* AppDelegate.swift in Sources */,
+				7641ACA329D1093B00CD2E49 /* AccountSummaryScreen.swift in Sources */,
+				7641ACAB29D35FD300CD2E49 /* AddAccountViewModel.swift in Sources */,
 				8D40C33A24E1C4640040822F /* URL+Extensions.swift in Sources */,
+				7650EF8029D7ADF100336FB6 /* TransferFundRequest.swift in Sources */,
+				7650EF8229D7AED700336FB6 /* TransferFundResponse.swift in Sources */,
+				7641ACA529D34C8500CD2E49 /* AccountListView.swift in Sources */,
 				8D40C32524E1C4080040822F /* SceneDelegate.swift in Sources */,
+				7641ACA929D35D1500CD2E49 /* CreateAccountResponse.swift in Sources */,
 				8D40C33C24E1C4820040822F /* View+Extensions.swift in Sources */,
-				8D40C32724E1C4080040822F /* ContentView.swift in Sources */,
+				7641ACAD29D3808300CD2E49 /* AddAccountScreen.swift in Sources */,
+				7641ACA129D1056E00CD2E49 /* AccountSummaryViewModel.swift in Sources */,
+				7650EF8829D7D95600336FB6 /* TransferFundsAccountSelectionView.swift in Sources */,
+				7641ACA729D35C1900CD2E49 /* CreateAccountRequest.swift in Sources */,
+				7641AC9F29D1023E00CD2E49 /* AccountService.swift in Sources */,
+				7641AC9D29D100C400CD2E49 /* Account.swift in Sources */,
+				7650EF8629D7B41400336FB6 /* TransferFundsScreen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,6 +304,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -312,6 +365,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -346,7 +400,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"BankApp/Preview Content\"";
-				DEVELOPMENT_TEAM = B2Q8EGNCQA;
+				DEVELOPMENT_TEAM = YBSCA9MEQ4;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = BankApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -366,7 +420,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"BankApp/Preview Content\"";
-				DEVELOPMENT_TEAM = B2Q8EGNCQA;
+				DEVELOPMENT_TEAM = YBSCA9MEQ4;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = BankApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
